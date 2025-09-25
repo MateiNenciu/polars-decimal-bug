@@ -57,12 +57,6 @@ def reproduce_decimal_bug():
     connection_string = "postgresql://testuser:testpass@localhost:5433/decimal_test"
 
     try:
-        # Clear the table first (except initial test data)
-        with pg_dbapi.connect(connection_string) as conn:
-            with conn.cursor() as cursor:
-                cursor.execute("DELETE FROM test_decimals WHERE id > 3")
-                conn.commit()
-
         print("2. Writing to PostgreSQL via ADBC...")
 
         # Write using Polars ADBC integration

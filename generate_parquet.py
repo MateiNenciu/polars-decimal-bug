@@ -12,7 +12,6 @@ def generate_test_parquet():
     # Create test data with various decimal values
     test_data = [
         {
-            "id": 4,
             "decimal_value": Decimal("44.123456"),
             "description": "Main bug case: 44.123456",
         },
@@ -26,19 +25,10 @@ def generate_test_parquet():
     df = pl.DataFrame(
         test_data,
         schema={
-            "id": pl.Int32,
             "decimal_value": pl.Decimal(precision=10, scale=6),
             "description": pl.Utf8,
         },
     )
-
-    # Cast to match PostgreSQL table schema: INTEGER and DECIMAL(10,6)
-    # df = df.with_columns(
-    #     [
-    #         pl.col("id").cast(pl.Int32),
-    #         pl.col("decimal_value").cast(pl.Decimal(precision=10, scale=6)),
-    #     ]
-    # )
 
     print("Generated DataFrame:")
     print(df)
