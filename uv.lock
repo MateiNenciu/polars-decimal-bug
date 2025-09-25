@@ -59,16 +59,16 @@ wheels = [
 
 [[package]]
 name = "polars"
-version = "1.33.1"
+version = "1.34.0b1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/85/da/8246f1d69d7e49f96f0c5529057a19af1536621748ef214bbd4112c83b8e/polars-1.33.1.tar.gz", hash = "sha256:fa3fdc34eab52a71498264d6ff9b0aa6955eb4b0ae8add5d3cb43e4b84644007", size = 4822485 }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/95/5d1dbb663b58b1c8a3f9003dac76caadacccdebf3037f0c5b4416771f64c/polars-1.34.0b1.tar.gz", hash = "sha256:fe1e3017efa5bddac36782514dbd63e0299ef7ed2bd15a6fa25bff86fa6ed8d1", size = 4866585 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/79/c51e7e1d707d8359bcb76e543a8315b7ae14069ecf5e75262a0ecb32e044/polars-1.33.1-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:3881c444b0f14778ba94232f077a709d435977879c1b7d7bd566b55bd1830bb5", size = 39132875 },
-    { url = "https://files.pythonhosted.org/packages/f8/15/1094099a1b9cb4fbff58cd8ed3af8964f4d22a5b682ea0b7bb72bf4bc3d9/polars-1.33.1-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:29200b89c9a461e6f06fc1660bc9c848407640ee30fe0e5ef4947cfd49d55337", size = 35638783 },
-    { url = "https://files.pythonhosted.org/packages/8d/b9/9ac769e4d8e8f22b0f2e974914a63dd14dec1340cd23093de40f0d67d73b/polars-1.33.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:444940646e76342abaa47f126c70e3e40b56e8e02a9e89e5c5d1c24b086db58a", size = 39742297 },
-    { url = "https://files.pythonhosted.org/packages/7a/26/4c5da9f42fa067b2302fe62bcbf91faac5506c6513d910fae9548fc78d65/polars-1.33.1-cp39-abi3-manylinux_2_24_aarch64.whl", hash = "sha256:094a37d06789286649f654f229ec4efb9376630645ba8963b70cb9c0b008b3e1", size = 36684940 },
-    { url = "https://files.pythonhosted.org/packages/06/a6/dc535da476c93b2efac619e04ab81081e004e4b4553352cd10e0d33a015d/polars-1.33.1-cp39-abi3-win_amd64.whl", hash = "sha256:c9781c704432a2276a185ee25898aa427f39a904fbe8fde4ae779596cdbd7a9e", size = 39456676 },
-    { url = "https://files.pythonhosted.org/packages/cb/4e/a4300d52dd81b58130ccadf3873f11b3c6de54836ad4a8f32bac2bd2ba17/polars-1.33.1-cp39-abi3-win_arm64.whl", hash = "sha256:c3cfddb3b78eae01a218222bdba8048529fef7e14889a71e33a5198644427642", size = 35445171 },
+    { url = "https://files.pythonhosted.org/packages/5f/c1/40208982bba15f6a3c6398135a5c2c684e7bdd12abdd89d988d9a77f908c/polars-1.34.0b1-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:595422c424478de37acad9e038550a0611466a961f9cbc5534b2d12d3644147a", size = 40322647 },
+    { url = "https://files.pythonhosted.org/packages/8d/42/e658407b9edea2c176d1099d4330450d8341fc351fa9e6817fab72fd456f/polars-1.34.0b1-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:12c66cd022d7cc408a29d92fd073cf7265602a782a417135199af44d4b853372", size = 36646023 },
+    { url = "https://files.pythonhosted.org/packages/d6/1c/fb7dc60e56ae25f4e94515930b47427a7abd8e1046cb1305cc023993c2e9/polars-1.34.0b1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1d3f5619bcd053700414b83edccfcd8cee10454720c52b67477fbe321373a221", size = 40937902 },
+    { url = "https://files.pythonhosted.org/packages/62/e3/22cab3163671d0ede8213d9128d7618c14e6c842392e59b2cfda71f90069/polars-1.34.0b1-cp39-abi3-manylinux_2_24_aarch64.whl", hash = "sha256:d2f03d840613d4b0488c4876753c111e2f004495ae728f6f09a3b74180ce975e", size = 37720621 },
+    { url = "https://files.pythonhosted.org/packages/9e/33/9a823aef361aa2f820543b2ddd5682e7f552c451e4e55934b60a07f1d172/polars-1.34.0b1-cp39-abi3-win_amd64.whl", hash = "sha256:b85d1126143abff3e12eaf252bcf5c35114907fd1319df32e2562d30f3431b25", size = 40800699 },
+    { url = "https://files.pythonhosted.org/packages/f6/f6/0cb91c016a2a4d70ee420cb713ab71b38d32585bb17ab16aafb3c33042b8/polars-1.34.0b1-cp39-abi3-win_arm64.whl", hash = "sha256:494739d0bcc22beef2e3f8c59cceb0ebe59bc20b7cf234f0eb447886449e6948", size = 36549681 },
 ]
 
 [[package]]
@@ -84,7 +84,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "adbc-driver-postgresql", specifier = ">=1.8.0" },
-    { name = "polars", specifier = ">=1.33.1" },
+    { name = "polars", specifier = "==1.34.0b1" },
     { name = "pyarrow", specifier = ">=15.0.0" },
 ]
 
