@@ -83,7 +83,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "adbc-driver-postgresql", specifier = ">=1.8.0" },
+    { name = "adbc-driver-postgresql", specifier = "==1.8.0" },
     { name = "polars", specifier = "==1.34.0b1" },
     { name = "pyarrow", specifier = ">=15.0.0" },
 ]
